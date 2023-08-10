@@ -1,21 +1,16 @@
 [
-	//
-    //	Base terrains
-	//
-    {
-        "name": "Ocean",
+	{
+		"name": "Void",
 		"type": "Water",
 		"movementCost": 1,
-		"RGB": [2, 104, 100],
-		"uniques": [
-
-		]
-    },
-    {
-		"name": "Coast",
+		"RGB": [10, 0, 0],
+		"uniques": []
+	},
+	{
+		"name": "Flux",
 		"type": "Water",
 		"movementCost": 1,
-		"RGB": [42, 206, 179],
+		"RGB": [50, 0, 50],
 		"uniques": [
 			"Every [60] tiles with this terrain will receive a major deposit of a strategic resource."
 		]
