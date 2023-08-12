@@ -1,111 +1,98 @@
 [
-    {	//	Adaptation, starting block
-		"name": "Adaptation",
-		"era": "Primeval Era",
-		"priorities": {
-			"Neutral": 30,
-			"Cultural": 10,
-			"Diplomatic": 10,
-			"Domination": 10,
-			"Scientific": 10
-        	},
-		"uniques": [
-            "[+10]% growth [in capital]",
-			"[+1 Happiness] [in capital]"
-		],
-		"policies": [
-			{	//	Hunting Proficiency
-				"name": "Hunting Proficiency",
-				"uniques": [
-					"[+10]% Strength <vs [Animals] units>",
-					"Only available <after discovering [Primitive Hunting Weapons]>"
-				],
-				"row": 1,
-				"column": 1
-			},
-			{	//	Gathering Proficiency
-				"name": "Gathering Proficiency",
-				"uniques": [
-					"[+2 Food] from every [Gatherer]",
-					"Only available <after discovering [Gathering]>"
-				],
-				"row": 1,
-				"column": 3
-			},
-			{	//	Tinkering
-				"name": "Tinkering",
-				"uniques": [
-
-				],
-				"row": 1,
-				"column": 5
-			},
-			{	//	Adaptation Complete
-                "name": "Adaptation Complete",
-                "uniques": [
-					
-                ]
+    {
+        "name":"Consolidation",
+        "era":"Arrival era",
+        "priorities":{
+            "Neutral":10,
+            "Cultural":10,
+            "Diplomatic":10,
+            "Domination":10,
+            "Scientific":10
+        },
+        "uniques":[],
+        "policies":[
+            {
+                "name":"Specialization",
+                "uniques":[],
+                "row":1,
+                "column":3
+            },
+            {
+                "name":"Regional Order",
+                "uniques":[],
+                "row":2,
+                "column":3
+            },
+            {
+                "name":"Monarchy",
+                "uniques":[],
+                "row":3,
+                "column":1
+            },
+            {
+                "name":"Patriotism",
+                "uniques":[],
+                "row":3,
+                "column":3
+            },
+            {
+                "name":"Fortress Doctrine",
+                "uniques":[],
+                "row":3,
+                "column":5
+            },
+            {
+                "name":"Consolidation Complete",
+                "uniques":[]
             }
-		]
-	},
-	{	//	Scintific block
-		"name": "Materialism",
-		"era": "Primeval Era",
-		"priorities": {
-			"Neutral": 30,
-			"Cultural": 10,
-			"Diplomatic": 10,
-			"Domination": 10,
-			"Scientific": 10
-			},
-		"uniques": [
-
-		],
-		"policies": [
-			{	//	Materials knowledge
-				"name": "Materials knowledge",
-				"uniques": [
-
-				],
-				"row": 1,
-				"column": 1
-			},
-			{	//	Materialism Complete
-				"name": "Materialism Complete",
-				"uniques": [
-					
-				]
-			}
-		]
-	},
-	{	//	Mystic block
-		"name": "Mysticism",
-		"era": "Primeval Era",
-		"priorities": {
-			"Neutral": 30,
-			"Cultural": 10,
-			"Diplomatic": 10,
-			"Domination": 10,
-			"Scientific": 10
-			},
-		"uniques": [
-
-		],
-		"policies": [
-			{	//	Spiritual energy
-				"name": "Spiritual energy",
-				"uniques": [
-
-				],
-				"row": 1,
-				"column": 1
-			},
-			{	//	Mysticism Complete
-				"name": "Mysticism Complete",
-				"uniques": [
-					
-				]
-			}
-		]
-	}
+        ]
+    },
+    {
+        "name":"Observation",
+        "era":"Arrival era",
+        "priorities":{
+            "Neutral":10,
+            "Cultural":10,
+            "Diplomatic":10,
+            "Domination":10,
+            "Scientific":10
+        },
+        "uniques":[],
+        "policies":[
+            {
+                "name":"Physical Observation",
+                "uniques":[],
+                "row":1,
+                "column":3
+            },
+            {
+                "name":"Invested Study",
+                "uniques":[],
+                "row":2,
+                "column":2
+            },
+            {
+                "name":"Old Aids New",
+                "uniques":[],
+                "row":2,
+                "column":4
+            },
+            {
+                "name":"Taming the Wilderness",
+                "uniques":[],
+                "row":3,
+                "column":2
+            },
+            {
+                "name":"See the Flux",
+                "uniques":[],
+                "row":3,
+                "column":4
+            },
+            {
+                "name":"Observation Complete",
+                "uniques":[]
+            }
+        ]
+    }
 ]
